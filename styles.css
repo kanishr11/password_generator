@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wapper{
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wapper-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wapper-body h2{
+    color: green;
+    border-bottom: solid;
+
+}
+
+.wapper-body button{
+    background-color: rgb(139, 201, 180);
+    padding: 5px 0;
+    font-size: 15px;
+    color: rgb(12, 77, 12);
+}
+
+img{
+    height: 20px;
+}
+
+input{
+    border: none;
+    padding: 10px;
+
+}
+
+.input-content{
+    border: 2px solid greenyellow;
+    background-color: rgb(255, 255, 255);
+}
